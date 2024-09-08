@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import TodoList from '../components/TodoList';
 
+
 test('renders initial todo items', () => {
   render(<TodoList />);
   expect(screen.getByText('Learn React')).toBeInTheDocument();
@@ -27,3 +28,9 @@ test('deletes a todo', () => {
   fireEvent.click(screen.getAllByText('Delete')[0]);
   expect(screen.queryByText('Learn React')).not.toBeInTheDocument();
 });
+
+
+
+
+
+
