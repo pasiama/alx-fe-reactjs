@@ -1,4 +1,3 @@
-
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
@@ -8,7 +7,7 @@ const validationSchema = Yup.object({
   password: Yup.string().min(6, 'Password must be at least 6 characters').required('Password is required'),
 });
 
-const formikForm = () => {
+const FormikForm = () => {
   return (
     <Formik
       initialValues={{ username: '', email: '', password: '' }}
@@ -41,4 +40,4 @@ const formikForm = () => {
   );
 };
 
-export default formikForm;
+export default FormikForm;
