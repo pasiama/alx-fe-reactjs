@@ -6,29 +6,30 @@ function AddRecipeForm() {
   const [steps, setSteps] = useState("");
   const [errors, setErrors] = useState({});
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const validate = () => {
+      const newErrors = {};
+      if (!title) newErrors.title = "Recipe title is required";
+      if (!ingredients) newErrors.ingredients = "Ingredients are required";
+      if (!steps) newErrors.steps = "Preparation steps are required";
+      return newErrors;
+    };
 
-    // Validation logic
-    const newErrors = {};
-    if (!title) newErrors.title = "Recipe title is required";
-    if (!ingredients) newErrors.ingredients = "Ingredients are required";
-    if (!steps) newErrors.steps = "Preparation steps are required";
+ const handleSubmit = (e) => {
+  e.preventDefault();
 
-    if (Object.keys(newErrors).length > 0) {
-      setErrors(newErrors);
-      return;
-    }
+  const validationErrors = validate();
+  if (Object.keys(validationErrors).length > 0) {
+    setErrors(validationErrors);
+    return;
+  }
 
-    // Clear the form after submission (for now)
-    setTitle("");
-    setIngredients("");
-    setSteps("");
-    setErrors({});
+  setTitle("");
+  setIngredients("");
+  setSteps("");
+  setErrors({});
 
-    // In a real app, you would submit the data to the server here
-    console.log({ title, ingredients, steps });
-  };
+  console.log({ title, ingredients, steps });
+};
 
   return (
     <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg">
