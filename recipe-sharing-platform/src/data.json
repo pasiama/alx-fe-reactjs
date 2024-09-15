@@ -3,79 +3,287 @@
         "id": 1,
         "title": "Spaghetti Carbonara",
         "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-        "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+        "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+        "ingredients": [
+            "200g spaghetti",
+            "100g pancetta",
+            "2 large eggs",
+            "50g pecorino cheese",
+            "50g parmesan cheese",
+            "Black pepper",
+            "Salt"
+          ],
+          "instructions": [
+            "Cook the spaghetti in salted boiling water.",
+            "Fry the pancetta until crisp.",
+            "Beat the eggs and mix with the cheeses.",
+            "Drain the pasta and combine with the pancetta.",
+            "Mix the pasta with the egg mixture off the heat."
+          ]
       },
       {
         "id": 2,
         "title": "Chicken Tikka Masala",
         "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-        "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+        "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+        "ingredients": [
+            "200g spaghetti",
+            "100g pancetta",
+            "2 large eggs",
+            "50g pecorino cheese",
+            "50g parmesan cheese",
+            "Black pepper",
+            "Salt"
+          ],
+          "instructions": [
+            "Cook the spaghetti in salted boiling water.",
+            "Fry the pancetta until crisp.",
+            "Beat the eggs and mix with the cheeses.",
+            "Drain the pasta and combine with the pancetta.",
+            "Mix the pasta with the egg mixture off the heat."
+          ]
       },
       {
             "id": 3,
             "title": "Spaghetti Carbonara",
             "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 4,
             "title": "Chicken Tikka Masala",
             "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 5,
             "title": "Vegan Buddha Bowl",
             "summary": "A healthy bowl of fresh vegetables, grains, and plant-based protein with a flavorful dressing.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 6,
             "title": "Beef Tacos",
             "summary": "A Mexican dish consisting of a fried tortilla, typically folded, filled with various mixtures, such as seasoned meat, beans, lettuce, and tomatoes.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 7,
             "title": "Chicken Alfredo",
             "summary": "A pasta dish made with fettuccine, cream, and Parmesan cheese.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 8,
             "title": "Chicken Parmesan",
             "summary": "A classic Italian-American dish made with breaded chicken breast, marinara sauce, and mozzarella cheese.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 9,
             "title": "Chicken Fried Rice",
             "summary": "A Chinese dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 10,
             "title": "Chicken Noodle Soup",
             "summary": "A soup made from chicken, vegetables, and noodles.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 11,
             "title": "Chicken Quesadilla",
             "summary": "A Mexican dish and type of taco, consisting of a tortilla that is filled primarily with cheese, and sometimes meats, beans, and spices, and then cooked on a griddle.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 12,
             "title": "Chicken Shawarma",
             "summary": "A Middle Eastern dish of garlicky meat or poultry served on pitas.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           },
           {
             "id": 13,
             "title": "Chicken Stir-Fry",
             "summary": "A Chinese dish made with chicken, vegetables, and a savory sauce.",
-            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg"
+            "image": "https://img.freepik.com/free-photo/delicious-lobster-gourmet-seafood_23-2151713032.jpg",
+            "ingredients": [
+                  "200g spaghetti",
+                  "100g pancetta",
+                  "2 large eggs",
+                  "50g pecorino cheese",
+                  "50g parmesan cheese",
+                  "Black pepper",
+                  "Salt"
+                ],
+                "instructions": [
+                  "Cook the spaghetti in salted boiling water.",
+                  "Fry the pancetta until crisp.",
+                  "Beat the eggs and mix with the cheeses.",
+                  "Drain the pasta and combine with the pancetta.",
+                  "Mix the pasta with the egg mixture off the heat."
+                ]
           }
           
     ]
