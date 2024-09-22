@@ -9,6 +9,7 @@ const Search = () => {
   const [loading, setLoading] = useState(false);
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState(false);
+  const [minRepos, setMinRepos] = useState(0);
 
   // Handle form submission
   const handleSearch = async (e) => {
@@ -18,8 +19,8 @@ const Search = () => {
     setUserData(null); // Clear any previous user data
 
     try {
-      const data = await fetchUserData(username); // Fetch user data
-      setUserData(data);  // Set the fetched user data
+      const data = await fetchUserData(username, location, minRepos);
+            setUserData(data);  // Set the fetched user data
     } catch (err) {
       setError(true);  // Handle error if the user isn't found
     } finally {
@@ -34,7 +35,7 @@ const Search = () => {
       <form onSubmit={handleSearch} className="mb-4">
         <input
           type="text"
-          value={username}
+          value={minRepos}
           onChange={(e) => setUsername(e.target.value)}  // Update the username state
           placeholder="Enter GitHub username"
           className="border p-2 mr-2 rounded"
