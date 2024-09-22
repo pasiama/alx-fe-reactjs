@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // GitHub API endpoint for searching users
-const BASE_URL = "https://api.github.com/search/users";
+const BASE_URL = "https://api.github.com/search/users?q";
 
 // Function to fetch GitHub users based on username, location, and minimum repository count
 export const fetchUserData = async (username, location = "", minRepos = 0) => {
