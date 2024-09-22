@@ -52,24 +52,28 @@ const Search = () => {
       {error && <p>Looks like we cant find the user.</p>}  {/* Error message */}
 
       {/* If user data is available, display it */}
-      {userData && (
-        <div className="user-details border p-4 rounded shadow-lg">
-          <img
-            src={userData.avatar_url}
-            alt={`${userData.login}'s avatar`}
-            className="w-16 h-16 rounded-full mb-4"
-          />
-          <p className="font-bold">{userData.login}</p>
-          <a
-            href={userData.html_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 underline"
-          >
-            View GitHub Profile
-          </a>
-        </div>
-      )}
+      <div className="results">
+        {userData.length > 0 && (
+          <ul className="user-list">
+            {userData.map((user) => (
+              <li key={user.id} className="user-item flex items-center mb-4">
+                <img src={user.avatar_url} alt={user.login} className="w-16 h-16 rounded-full mr-4" />
+                <div>
+                  <h3 className="text-lg font-semibold">{user.login}</h3>
+                  <a
+                    href={user.html_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline"
+                  >
+                    View Profile
+                  </a>
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 };
